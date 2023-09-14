@@ -1,26 +1,27 @@
 import { Hero } from "./section/Hero"
 import { Subscribe } from "./section/Subscribe"
-import { SuperQuality } from "./section/SuperQUality"
 import { Footer } from "./section/Footer"
 import { CustomerReviews } from "./section/CustomerReviews"
 import { PopularProducts } from "./section/PopularProducts"
-import { Services } from "./section/Services"
 import { SpecialOffer } from "./section/SpecialOffer"
 import { Nav } from "./components/Nav"
+import SuperQUality from './section/SuperQuality'
+import Services from './section/Services'
+
 
 export default function App() {
   return (
     <>
     <main className="relative">
       <Nav />
-      <section className="xl:padding-1 wide:padding-r padding-b">
+      <section className="xl:padding-l wide:padding-r padding-b">
         <Hero /> 
       </section>
       <section className="padding">
         < PopularProducts />
       </section>
       <section className="padding">
-        < SuperQuality /> 
+        < SuperQUality /> 
         </section>
       <section className="padding">
         < Services />
