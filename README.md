@@ -2,7 +2,7 @@
 
 ### Description
 
-Nike SHoe product app built with React + Tailwind CSS.
+Nike Shoe product app built with React + Tailwind CSS.
 
-- Deplyed on Netlify.
+- Deployed on Netlify.
 - Shoutout to JSMastery for the tutorial.
